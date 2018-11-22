@@ -1,0 +1,12 @@
+com/auth0/samples/authapi/springbootauthupdated/user/ApplicationUser.class
+com/auth0/samples/authapi/springbootauthupdated/security/SecurityConstants.class
+com/auth0/samples/authapi/springbootauthupdated/security/JWTAuthorizationFilter.class
+com/auth0/samples/authapi/springbootauthupdated/security/WebSecurity.class
+com/auth0/samples/authapi/springbootauthupdated/user/ApplicationUserRepository.class
+com/auth0/samples/authapi/springbootauthupdated/user/UserDetailsServiceImpl.class
+com/auth0/samples/authapi/springbootauthupdated/security/JWTAuthenticationFilter.class
+com/auth0/samples/authapi/springbootauthupdated/task/TaskRepository.class
+com/auth0/samples/authapi/springbootauthupdated/task/TaskController.class
+com/auth0/samples/authapi/springbootauthupdated/user/UserController.class
+com/auth0/samples/authapi/springbootauthupdated/task/Task.class
+com/auth0/samples/authapi/springbootauthupdated/SpringbootAuthUpdatedApplication.class

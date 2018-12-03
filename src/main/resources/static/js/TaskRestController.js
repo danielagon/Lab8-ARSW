@@ -4,6 +4,20 @@
  * and open the template in the editor.
  */
 
-var TaskControllerModule = (function (){
-    
+var RestControllerModule = (function () {
+
+    var postUser = function (user, callback) {
+        axios.post('/users/sign-up', user)
+            .then(function (){
+                callback.onSuccess();
+            })
+            .catch(function (error) {
+                callback.onFailed(error);
+                console.log(error);
+            });
+    };
+
+    return {
+        postUser: postUser
+    };
 })();
